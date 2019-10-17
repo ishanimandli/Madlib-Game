@@ -2,18 +2,19 @@
 <html>
 <head>
     <title>Let's play!</title>
+    <link rel="stylesheet" href="/static/madlibs.css">
 </head>
 <body>
     <form action = '/madlib'>
-        Enter your name:
+       <p>Enter your name:</p> 
         <input type="text" name="person">
-        <br> What's your favorite color?
+        <br> <p>What's your favorite color?</p>
         <input type="text" name="favColor">
-        <br> What is your preffered noun?
-        <input type="radio" name="noun" value='She'>She
-        <input type="radio" name="noun" value='he'>He
-        <input type="radio" name="noun" value='their'>Their
-        <br> How would you describe yourself?
+        <br> <p>Pick something?</p>
+        <input type="radio" name="noun" value='book'>Book
+        <input type="radio" name="noun" value='dog'>Dog
+        <input type="radio" name="noun" value='apple'>Apple
+        <br> <p>How would you describe yourself?</p>
         <select name='adjective'>
             <option value='pretty'>Pretty</option>
             <option value='smart'>Smart</option>
@@ -21,6 +22,16 @@
             <option value="awesome">Awesome</option>
             <option value='cool'>Cool</option>
         </select>
+        <br> <p>Choose your favorite foods:</p>
+        <input type="checkbox" name="food" value='fried chicken'>Fried Chicken
+        <input type="checkbox" name="food" value='burrito'>Burrito
+        <input type="checkbox" name="food" value='sushi'>Sushi
+        <input type="checkbox" name="food" value='burger'>Burger
+        <input type="checkbox" name="food" value='chicken masala'>Chicken Masala
+        <input type="checkbox" name="food" value='pizza'>Pizza
+        <input type="checkbox" name="food" value='palov'>Palov
+
+
         <br> <input type="submit">
     </form>
 </body>

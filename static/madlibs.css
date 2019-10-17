@@ -1,0 +1,11 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.tenor.com/images/ae5eed3c4026dd9766f4ee602c58deb3/tenor.gif");
+}
+p{
+    display: inline-block;
+    font-weight: bold;
+    font-family: cursive;
+    color: purple;
+}
